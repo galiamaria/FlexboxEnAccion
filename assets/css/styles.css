@@ -1,10 +1,4 @@
-button{
-    width: 200px;
-    height: 80px;
-    color: white;
-    background-color: aquamarine;
-    font-size: 30px;
-}
+
 .flex-nav{
     display: flex;
     height: 50px;
@@ -41,8 +35,14 @@ button{
 }
 
 .flex-item{
-   display: flex;
-   
+    display: flex;
+    width: 200px;
+    height: 80px;
+    color: white;
+    background-color: aquamarine;
+    font-size: 30px;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .flex-container2{
